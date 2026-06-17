@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>รวมลิงก์ระบบงาน</title>
+<title>รวมลิงก์ระบบงาน กจส.</title>
 <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;500;600&family=Kanit:wght@500;600;700&display=swap" rel="stylesheet"/>
 <style>
 :root{
@@ -345,7 +345,7 @@ body.ia .ao{display:inline-flex;}
 const SK='settings_v1';
 
 // ═══ ใส่ Web App URL จาก Google Apps Script ตรงนี้ ═══
-const API_URL = 'https://script.google.com/macros/s/ใส่_URL_ตรงนี้/exec';
+const API_URL = 'https://script.google.com/macros/s/AKfycbyDH1H1WNFdlCgZLEpc5oTjjJwKYjTmuF1EWLDlBgve3QOB0VT-SiDKiWUOjZkWnx0G1A/exec';
 // ════════════════════════════════════════════════════════
 
 // ══ PASSWORDS (เปลี่ยนได้ในหน้าตั้งค่า) ══
@@ -355,7 +355,7 @@ let PW_U='1234', PW_A='admin1234';
 let links=[], activeCat='all', editId=null, role='', pendingFile=null;
 
 // ══ SETTINGS ══
-let CFG={badge:'หน่วยงาน',title:'รวมลิงก์ระบบงาน',sub:'คำอธิบาย / หน่วยงานย่อย',logo:'LOGO',footer:'รวมลิงก์ระบบงาน'};
+let CFG={badge:'หน่วยงาน',title:'รวมลิงก์ระบบงาน กจส.',sub:'คำอธิบาย / หน่วยงานย่อย',logo:'LOGO',footer:'รวมลิงก์ระบบงาน กจส.'};
 
 // ── API helpers ──
 function apiFetch(p){ return fetch(API_URL+'?'+new URLSearchParams(p)).then(r=>r.json()); }
